@@ -1,0 +1,135 @@
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 15px 30px;
+    font-size: 17px;
+    padding: 8px;
+}
+
+.container{
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    width: 80%;
+    margin-left: 135px;
+}
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="date"],
+input[type="password"],
+select,
+textarea{
+   width: 30%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+
+fieldset{
+    
+    border: 1px solid #ccc;
+    padding: 10px 50px 15px 50px;
+}
+
+.main_heading{
+    text-align: center;
+
+}
+
+input[type="submit"]
+{
+    background-color:#1977cc ;
+    color:white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 80%;
+   
+
+}
+input[type="submit"]:hover
+{
+    background-color:#4caf84;
+}
+.c{
+
+    position: relative;
+    left: 800px;
+
+}
+.c1{
+     position: relative;
+    left: 790px;
+}
+.c2{
+     position: relative;
+    left: 815px;
+}
+.c3{
+     position: relative;
+    left: 865px;
+}
+
+@keyframes tipsy {
+  0 {
+    transform: translateX(-50%) translateY(-50%) rotate(0deg);
+  }
+  100% {
+    transform: translateX(-50%) translateY(-50%) rotate(360deg);
+  }
+}
+
+/* body {
+  font-family: helvetica, arial, sans-serif;
+  background-color: #2e2e31;
+} */
+
+.a {
+  color: black;
+/*   text-shadow: 0 20px 25px #2e2e31, 0 40px 60px #2e2e31; */
+  font-size: 3rem;
+  font-weight: bold;
+  text-decoration: none;
+  letter-spacing: -3px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.a:before,
+.a:after {
+  content: '';
+  padding: .9em .4em;
+  position: absolute;
+  left: 50%;
+  width: 100%;
+  top: 50%;
+  display: block;
+  border: 15px solid red;
+  transform: translateX(-50%) translateY(-50%) rotate(0deg);
+  animation: 10s infinite alternate ease-in-out tipsy;
+}
+
+.a:before {
+  border-color: #1977cc #1977cc rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+  z-index: -1;
+}
+
+.a:after {
+  border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #1977cc #1977cc;
+  box-shadow: 25px 25px 25px rgba(46, 46, 49, .8);
+}
+#footer{
+  background-color: #ffe6e6;
+}
+
