@@ -1,4 +1,4 @@
-# bu-hack
+# Bu-hack
 
 We have enclosed the database with name medic.sql 
 The database is made using sql in phpmyadmin....
